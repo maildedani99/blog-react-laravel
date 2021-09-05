@@ -1,0 +1,41 @@
+.__postform {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+
+}
+.__input {
+        width: 60%;
+        height: 50px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+        margin-bottom: 1rem;
+}
+.__input_content {
+    width: 60%;
+        height: 200px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+}
+.__button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 20%;
+    margin-top: 1rem;
+    font-size: 16px;
+    align-self: center; 
+  }
