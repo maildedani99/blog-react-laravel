@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import styles from './showposts.module.css';
-import Post from '../post/post';
+import Post from '../../components/post/post';
 
 
 const ShowPosts = () => {
 
     const [posts, setPosts ] = useState(['']);
+    
 
     const getPosts = () => {
         const url = 'http://localhost:8000/api/posts';

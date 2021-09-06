@@ -1,10 +1,24 @@
 .__post {
+    display: flex;
+    flex-direction: row;
     width: 60%;
     padding: 3rem;
     margin: 2rem;
     background-color: rgb(235, 233, 233);
     box-shadow: 0 1px 2px grey;
     align-items: center;
+}
+.__user {
+    width: 20%;
+    display: flex;
+    flex-direction : column;
+}
+.__avatar {
+    width: 50%;
+}
+.__infowrap {
+    display: flex;
+    flex-direction : column;
 }
 .__content {
     color: rgb(95, 95, 95);
@@ -15,7 +29,7 @@
 }
 .__title {
     color: rgb(66, 66, 66);
-    margin: 0.5rem 0;
+    margin-bottom: 0.5rem ;
     font-weight: bold;
     font-size: 1.5rem;
 }
@@ -24,9 +38,7 @@
     color: rgb(78, 78, 78);
 
 }
-.__body {
-    margin: 2rem 0;
-}
+
 .__p {
     line-height: 1.7;
     justify-content: justify;

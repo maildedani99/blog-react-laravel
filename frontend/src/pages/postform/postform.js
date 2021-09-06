@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import styles from './postform.module.css';
+import { useHistory } from "react-router-dom";
+
 
 const PostForm = () => {
 
     const [data, setData] = useState({});
+    let history = useHistory();
 
     const handleInputChange = (event) => {
         setData({
@@ -34,7 +37,7 @@ const PostForm = () => {
             if (response.status === 201 || response.status === 200) {
               console.log(response.status);
                 alert("post creado con exito");
-                setData({});
+                history.push("/");
               return response.json();
             } else {
               return Promise.reject(response.status);
