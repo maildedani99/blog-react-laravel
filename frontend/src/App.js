@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Navbar />
+        <Navbar  />
         <Switch>
         <Route exact path="/">
         <ShowPosts />

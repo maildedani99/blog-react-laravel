@@ -7,6 +7,7 @@
     background-color: rgb(235, 233, 233);
     box-shadow: 0 1px 2px grey;
     align-items: center;
+    justify-content: space-around;
 }
 .__user {
     width: 20%;
@@ -17,6 +18,7 @@
     width: 50%;
 }
 .__infowrap {
+    width: 70%;
     display: flex;
     flex-direction : column;
 }
@@ -42,4 +44,7 @@
 .__p {
     line-height: 1.7;
     justify-content: justify;
+}
+.__created {
+    text-align: right;
 }

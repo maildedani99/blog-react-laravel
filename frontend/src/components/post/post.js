@@ -19,7 +19,7 @@ const Post = (props) => {
       <div className={styles.__content}>
       <p className={styles.__p}>{post.content}</p>
       </div>
-      <a>Creado: {post.created_at}</a>
+      <a className={styles.__created}>Creado: {post.created_at}</a>
       </div>
     </div>
   );
